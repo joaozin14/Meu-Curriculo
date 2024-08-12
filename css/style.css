@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(#ffffff, rgb(4, 77, 107));
+}
+
+
+img{
+    border: 1px solid #333; 
+    border-radius: 5px;
+    width: 80%;
+}
+
+.container {
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgb(4, 77, 107);
+    font-size: 30px;
+    font-family: Fantasy ;
+    color: white;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+
+}
+
+
+@media screen and (max-width: 1400px) {
+    body, img, .container {
+      width: 100%;
+      padding: 0%;
+      margin: auto;
+      text-align: center;
+      float: none;
+    }
+  }
+
+  
+
