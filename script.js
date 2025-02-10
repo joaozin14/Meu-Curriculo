@@ -1,5 +1,5 @@
-const text = "Olá, apresento-lhes meu currículo!";
-const typingSpeed = 100; // Velocidade de digitação em milissegundos
+const text = "Olá, apresento-lhes meu currículo! Clique nele para ir para o Github.";
+const typingSpeed = 90; // Velocidade de digitação em milissegundos
 let index = 0;
 
 function typeWriter() {
